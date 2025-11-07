@@ -42,6 +42,16 @@ const Contact = () => {
           </Button>
         </Link>
 
+        {/* AdSense Ad Unit - Top of Page */}
+        <div className="my-6 flex justify-center">
+          <ins className="adsbygoogle"
+               style={{ display: 'block' }}
+               data-ad-client="ca-pub-XXXXXXXXXX"
+               data-ad-slot="XXXXXXXXXX"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6">
           <Card className="bg-card/80 backdrop-blur-sm border-border">
             <CardHeader>

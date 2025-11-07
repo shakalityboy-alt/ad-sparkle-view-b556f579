@@ -19,6 +19,16 @@ const Privacy = () => {
           <h1 className="text-4xl font-bold text-foreground mb-6">Privacy Policy</h1>
           <p className="text-muted-foreground mb-6">Last updated: {new Date().toLocaleDateString()}</p>
 
+          {/* AdSense Ad Unit - Top of Page */}
+          <div className="my-6 flex justify-center">
+            <ins className="adsbygoogle"
+                 style={{ display: 'block' }}
+                 data-ad-client="ca-pub-XXXXXXXXXX"
+                 data-ad-slot="XXXXXXXXXX"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+          </div>
+
           <div className="space-y-6 text-foreground">
             <section>
               <h2 className="text-2xl font-semibold mb-3">1. Information We Collect</h2>
@@ -52,6 +62,16 @@ const Privacy = () => {
                 advertising by visiting Google's Ads Settings.
               </p>
             </section>
+
+            {/* AdSense Ad Unit - Mid Content */}
+            <div className="my-6 flex justify-center">
+              <ins className="adsbygoogle"
+                   style={{ display: 'block' }}
+                   data-ad-client="ca-pub-XXXXXXXXXX"
+                   data-ad-slot="XXXXXXXXXX"
+                   data-ad-format="auto"
+                   data-full-width-responsive="true"></ins>
+            </div>
 
             <section>
               <h2 className="text-2xl font-semibold mb-3">5. Data Security</h2>

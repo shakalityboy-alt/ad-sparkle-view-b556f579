@@ -45,6 +45,16 @@ const About = () => {
             A powerful, modern HTML viewer and editor built for developers, designers, and content creators.
           </p>
 
+          {/* AdSense Ad Unit - Top of Page */}
+          <div className="my-6 flex justify-center">
+            <ins className="adsbygoogle"
+                 style={{ display: 'block' }}
+                 data-ad-client="ca-pub-XXXXXXXXXX"
+                 data-ad-slot="XXXXXXXXXX"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+          </div>
+
           <div className="space-y-6 text-foreground">
             <section>
               <h2 className="text-2xl font-semibold mb-3">What is HTML Viewer?</h2>
@@ -70,6 +80,16 @@ const About = () => {
               </ul>
             </section>
           </div>
+        </div>
+
+        {/* AdSense Ad Unit - Before Features */}
+        <div className="my-6 flex justify-center">
+          <ins className="adsbygoogle"
+               style={{ display: 'block' }}
+               data-ad-client="ca-pub-XXXXXXXXXX"
+               data-ad-slot="XXXXXXXXXX"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
